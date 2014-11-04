@@ -1,0 +1,11 @@
+=== RUN: ExampleSortedDeltaStream
+--- PASS: ExampleSortedDeltaStream (229.085us)
+=== RUN: ExampleReverseSortedDeltaStream
+--- PASS: ExampleReverseSortedDeltaStream (125.698us)
+=== RUN: ExampleBreakInRangeSortedDeltaStream
+--- PASS: ExampleBreakInRangeSortedDeltaStream (28.928us)
+PASS
+BenchmarkSortedDeltaStream	100000000	        28.8 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReverseSortedDeltaStream	10000000	       169 ns/op	      49 B/op	       1 allocs/op
+BenchmarkBreakInRangeSortedDeltaStream	10000000	       289 ns/op	      57 B/op	       1 allocs/op
+ok  	github.com/jasonmoo/delts	10.652s
