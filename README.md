@@ -29,3 +29,6 @@ in sequential order.
 
 All operations are threadsafe so calling `Add()` from multiple
 go routines outputs the expected ranges.
+
+[DOCS](http://godoc.org/github.com/jasonmoo/delts)
+[LICENSE](https://raw.github.com/jasonmoo/delts/master/LICENSE)
